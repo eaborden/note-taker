@@ -1,3 +1,4 @@
+//const $noteId = $(".note-id");
 const $noteTitle = $(".note-title");
 const $noteText = $(".note-textarea");
 const $saveNoteBtn = $(".save-note");
@@ -37,11 +38,13 @@ const renderActiveNote = () => {
   $saveNoteBtn.hide();
 
   if (activeNote.id) {
+    // $noteId.attr("readonly", true);
     $noteTitle.attr("readonly", true);
     $noteText.attr("readonly", true);
     $noteTitle.val(activeNote.title);
     $noteText.val(activeNote.text);
   } else {
+    // $noteId.attr("readonly", true);
     $noteTitle.attr("readonly", false);
     $noteText.attr("readonly", false);
     $noteTitle.val("");
@@ -52,6 +55,7 @@ const renderActiveNote = () => {
 // Get the note data from the inputs, save it to the db and update the view
 const handleNoteSave = function () {
   const newNote = {
+    // Id: $noteId.val(),
     title: $noteTitle.val(),
     text: $noteText.val(),
   };
