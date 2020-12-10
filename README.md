@@ -29,13 +29,13 @@ HEROKU APP HERE
 
 
 ## Project Images
-Image 1. The image below shows start of the application and first prompt results of all the employees by role, department, salary, and manager. 
+Image 1. When the application loads the following screen appears: 
 
 ![entryscreen](https://github.com/eaborden/note-taker/blob/master/public/images/entryscreen.PNG?raw=true)
 
 
 ---
 
-Image 2. Database schema
+Image 2. Note application entry form:
 
 ![notesscreen](https://github.com/eaborden/note-taker/blob/master/public/images/notescreen.PNG?raw=true)
