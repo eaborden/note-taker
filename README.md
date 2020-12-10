@@ -15,7 +15,7 @@ Create a note taking application that allows the user to create, save, and delet
 ## Required Elements
 [express package](https://expressjs.com/) \
 Heroku deployment \
-db.json \ 
+db.json \
 fs module
 
 ## Requirements
