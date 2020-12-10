@@ -38,4 +38,4 @@ Image 1. The image below shows start of the application and first prompt results
 
 Image 2. Database schema
 
-![schema](https://github.com/eaborden/note-taker/blob/master/public/images/notescreen.PNG?raw=true)
+![notesscreen](https://github.com/eaborden/note-taker/blob/master/public/images/notescreen.PNG?raw=true)
